@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'Titulo';
+  src: url('../assets/fonts/achtung.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Creative';
+  src: url('../assets/fonts/retroSignature.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Texto';
+  src: url('../assets/fonts/centuryGothic.otf');
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5efef;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  position: relative;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background: #f5efef;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+/* TOPO */
+
+.hero-top {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 5;
+}
+
+.left-name {
+  position: absolute;
+
+  top: 200px;
+  left: 85px;
+
+  font-size: 2rem;
+  letter-spacing: 10px;
+
+  color: #6557d2;
+}
+
+.right-name {
+  position: absolute;
+
+  top: 200px;
+  right: 105px;
+
+  font-size: 2rem;
+  letter-spacing: 10px;
+
+  color: #6557d2;
+}
+
+.hero-top span {
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 10px;
+
+  color: #6557d2;
+}
+
+/* TITULO */
+
+.hero-title {
+  position: absolute;
+
+  font-size: 15vw;
+  font-weight: 900;
+
+  color: #6557d2;
+
+  z-index: 1;
+
+  letter-spacing: 10px;
+
+  font-family: 'Titulo';
+}
+
+/* CREATIVE */
+
+.hero-creative {
+  position: absolute;
+
+  font-size: 30vw;
+
+  font-family: 'Creative';
+
+  color: #d4ff00;
+
+  z-index: 4;
+
+  transform: translateY(40px);
+
+  font-weight: 300;
+
+  letter-spacing: 10px;
+}
+
+/* IMAGEM */
+
+.hero-image-container {
+  position: relative;
+
+  z-index: 3;
+}
+
+.hero-image {
+  width: 600px;
+  max-width: 90vw;
+}
+
+/* TEXTOS INFERIORES */
+
+.hero-bottom {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 5;
+}
+
+.right-text {
+  position: absolute;
+
+  top: 500px;
+  right: 105px;
+
+  font-size: 2rem;
+  letter-spacing: 10px;
+
+  color: #6557d2;
+}
+
+.left-text {
+  position: absolute;
+
+  top: 500px;
+  left: 85px;
+
+  font-size: 2rem;
+  letter-spacing: 10px;
+
+  color: #6557d2;
+}
+
+.hero-bottom p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+
+  color: #2f2f2f;
+
+  max-width: 350px;
+
+  letter-spacing: 2px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+
+  .hero {
+    padding: 120px 20px;
+  }
+
+  .hero-top {
+    top: 30px;
+    padding: 0 20px;
+  }
+
+  .hero-top span {
+    font-size: 1rem;
+    letter-spacing: 4px;
+  }
+
+  .hero-title {
+    font-size: 20vw;
+    text-align: center;
+  }
+
+  .hero-creative {
+    font-size: 18vw;
+  }
+
+  .hero-image {
+    width: 90vw;
+  }
+
+  .hero-bottom {
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 0 20px;
+  }
+
+  .hero-bottom p {
+    font-size: 1rem;
+  }
+
+}
