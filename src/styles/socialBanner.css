@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Texto';
+  src: url('../assets/fonts/achtung.otf');
+  font-weight: 700;
+}
+
+.social-banner {
+  width: 100%;
+  height: 120px;
+
+  background: #6657d8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.social-banner h2 {
+  font-size: 4rem;
+
+  color: #d4ff00;
+
+  letter-spacing: 5px;
+
+  text-transform: uppercase;
+
+  font-family: 'Texto';
+
+  line-height: 1;
+}
