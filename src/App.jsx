@@ -2,7 +2,9 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import SocialBanner from "./sections/SocialBanner";
-import SocialGrid from "./sections/SocialGrid";
+import SocialCreative from "./sections/SocialCreative";
+import SocialEstetica from "./sections/SocialEstetica";
+import SocialChurras from "./sections/SocialChurras";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <About />
       <Skills />
       <SocialBanner />
-      <SocialGrid />
+      <SocialCreative />
+      <SocialEstetica />
+      <SocialChurras />
     </>
   );
 }

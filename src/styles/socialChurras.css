@@ -1,0 +1,79 @@
+.social-churras {
+  width: 100%;
+
+  background: #111;
+
+  overflow: hidden;
+
+  transition: filter 0.3s ease;
+
+  cursor: pointer;
+}
+
+/* GRID */
+
+.churras-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 0px;
+
+  background: #f5efef;
+}
+
+/* IMAGENS */
+
+.churras-grid img {
+  width: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition: filter 0.3s ease;
+
+  cursor: pointer;
+}
+
+/* HOVER */
+
+.churras-grid img:hover {
+  filter: brightness(0.8);
+}
+
+/* MOCKUP */
+
+.churras-mockup {
+  width: 100%;
+
+  display: block;
+
+  margin-top: -1px;
+
+  transition: filter 0.3s ease;
+
+  cursor: pointer;
+}
+
+.churras-mockup:hover {
+  filter: brightness(0.85);
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+
+  .churras-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .churras-grid {
+    grid-template-columns: 1fr;
+  }
+
+}

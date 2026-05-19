@@ -1,4 +1,4 @@
-import "../styles/socialGrid.css";
+import "../styles/socialCreative.css";
 
 import multidao from "../assets/multidao.png";
 import letra from "../assets/letra.png";
@@ -7,9 +7,9 @@ import bonitas from "../assets/bonitas.png";
 import lembrado from "../assets/lembrado.png";
 import mockup from "../assets/mockup.png";
 
-function SocialGrid() {
+function SocialCreative() {
   return (
-    <section className="social-grid">
+    <section className="social-Creative">
 
       <div className="grid-container">
 
@@ -41,4 +41,4 @@ function SocialGrid() {
   );
 }
 
-export default SocialGrid;
+export default SocialCreative;

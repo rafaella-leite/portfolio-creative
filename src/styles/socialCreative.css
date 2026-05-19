@@ -1,4 +1,4 @@
-.social-grid {
+.social-Creative {
   width: 100%;
 
   background: #f5efef;
@@ -34,10 +34,6 @@
   object-fit: cover;
 
   display: block;
-
-  transition:
-    transform 0.4s ease,
-    filter 0.4s ease;
 }
 
 /* HOVER */
@@ -63,4 +59,12 @@
   display: block;
 
   margin-top: -1px;
+
+  transition: filter 0.3s ease;
+
+  cursor: pointer
+}
+
+.mockup-image:hover {
+  filter: brightness(0.85);
 }
