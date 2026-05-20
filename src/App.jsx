@@ -5,6 +5,8 @@ import SocialBanner from "./sections/SocialBanner";
 import SocialCreative from "./sections/SocialCreative";
 import SocialEstetica from "./sections/SocialEstetica";
 import SocialChurras from "./sections/SocialChurras";
+import SocialRun from "./sections/SocialRun";
+import SocialWebsite from "./sections/SocialWebsite";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <SocialCreative />
       <SocialEstetica />
       <SocialChurras />
+      <SocialRun />
+      <SocialWebsite />
     </>
   );
 }
